@@ -1,7 +1,7 @@
 # sudoku_solver
 Sudoku solver using recursive backtracking
 
-This project takes in a sudoku problem as a text file and solves it for you. It will solve the problem,
+This project takes in a sudoku problem as a text file (sudoku.in) and solves it for you. It will solve the problem,
 tell you if there are errors in the starting problem, or tell you that there are no solutions
 
 Backtracking structure
@@ -14,6 +14,7 @@ Backtracking structure
   if the end is reached without any solution found, we know that there is no solution
 
 Testing
+  the test function is present, but its call in main is commented out by default
   The solver includes a function tests(), which runs tests against 35 sudoku problems obtained from http://lipas.uwasa.fi/~timan/sudoku/
   It also tests against a number of sudoku problems without solutions, as well as problems that are invalid from the start (have two of a number in a row to begin with, for example)
   
